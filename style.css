@@ -1,0 +1,46 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+
+/*------------------------------------------*/
+
+/*----HEADER------*/
+
+header{
+    position:absolute;
+    background-color:black;
+    border-radius:30px;
+    width:80vw;
+    height:10vh;
+}
+
+h1{
+    color:white;
+}
+
+/*--------------------*/
+
+/*------MAIN---------*/
+
+/*-------------------*/
+
+/*-----FOOTER-------*/
+footer{
+    width:100vw;
+    height:10vh;
+
+    border-top: 2px solid black;
+
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button{
+    border:none;
+    background-color: white;
+}
+/*------------------*/
