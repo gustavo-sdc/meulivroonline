@@ -38,10 +38,33 @@ h1{
 main{
     width:80vw;
     height:75vh;
+
+    margin: 10px 0px 0px 0px;
+
+    overflow-x: auto;
 }
 
+.card{
+    background-color: grey;
+    width:500px;
+    height:250px;
+
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
+}
+
+#container{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+
+    width:100%;
+}
 
 
 /*-------------------*/
