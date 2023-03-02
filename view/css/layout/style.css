@@ -9,13 +9,16 @@ body{
     justify-content: space-evenly;
     align-items: center;
 }
+
+h1{ 
+    color:white;
+}
+
 /*------------------------------------------*/
 
 /*----HEADER------*/
 
-h1{
-    color:white;
-}
+
 
 /*--------------------*/
 

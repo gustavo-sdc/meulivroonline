@@ -11,48 +11,18 @@ class top_bar extends HTMLElement{
         const topbar = this.createMenu()
 
         shadow.appendChild(topbar)
-        shadow.appendChild(this.styleElement())
-
     }
 
     createMenu(){
         const back = document.createElement('header')
-        back.setAttribute('class', 'top-bar')
+        back.setAttribute('part', 'background')
 
-        const content = document.createElement('h1')
-        content.innerText ='Olá mundo'
-        back.appendChild(content)
+        back.innerHTML=`
+                    <h1>Olá</h1>
+        `
 
         return back
     }
-
-
-
-    styleElement(){
-        const style = document.createElement('style')
-        style.textContent = `
-            h1{
-                color:white;
-            }
-
-            .top-bar{
-                background-color:black;
-                border-radius:30px;
-                width:90vw;
-                height:10vh;
-            
-                display:flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            
-                margin-top:2vh;
-            }
-        `
-
-        return style
-    }
-
 }
 
 customElements.define('top-bar', top_bar)

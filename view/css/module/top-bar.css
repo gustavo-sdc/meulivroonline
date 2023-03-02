@@ -1,4 +1,4 @@
-.top-bar{
+top-bar::part(background){
     background-color:black;
     border-radius:30px;
     width:90vw;
