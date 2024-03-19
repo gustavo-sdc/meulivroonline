@@ -4,7 +4,7 @@ Criei esse projeto para facilitar o acesso à livros, para pessoas com renda bai
 
 Este projeto está momentaneamente parado, enquanto eu ainda estou estudando as tecnologias para construí-lo: 
 - React.js;
-- Noje.js;
+- Node.js;
 - Azure (cloud).
 
   
